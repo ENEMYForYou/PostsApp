@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cnt_column {
+  display: flex;
+  flex-direction: column;
+  min-width: 50%;
+  max-width: 60%;
+}
