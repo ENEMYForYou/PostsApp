@@ -8,7 +8,7 @@ const RecentPostItem = ({ name, url, descr }) => {
   const isUrl = isValidHttpUrl(url);
   const isImage = checkImage(url);
   const pluggedImage =
-    "https://www.meme-arsenal.com/memes/eebc05e99e70baf7ca75f49b0289b92a.jpg";
+    "https://thumbs.dreamstime.com/b/error-sign-error-message-white-background-error-sign-error-message-simple-vector-icon-125098995.jpg";
 
   return (
     <li className={styles.PostList_item}>
